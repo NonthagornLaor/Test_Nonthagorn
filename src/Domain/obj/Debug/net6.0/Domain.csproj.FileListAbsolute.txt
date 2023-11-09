@@ -10,3 +10,15 @@ D:\slipNon\create\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.dll
 D:\slipNon\create\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\refint\Domain.dll
 D:\slipNon\create\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.pdb
 D:\slipNon\create\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\bin\Debug\net6.0\Domain.dll
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.dll
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Work\Test_Nonthagorn\Test_Nonthagorn\src\Domain\obj\Debug\net6.0\ref\Domain.dll

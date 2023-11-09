@@ -1,5 +1,4 @@
 ﻿using Application.Interfaces.Repositories.StoredProcedures;
-using Domain.Entities.web;
 using Infrastructure.ContractDbs;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;

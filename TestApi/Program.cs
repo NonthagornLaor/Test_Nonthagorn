@@ -52,12 +52,12 @@ app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod()
 .WithHeaders("authorization", "accept", "content-type", "origin"));
 app.UseHttpsRedirection();
 
+app.UseRouting();
 app.UseAuthorization();
 
-app.MapControllers();
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapControllers();
-//});
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 app.Run();

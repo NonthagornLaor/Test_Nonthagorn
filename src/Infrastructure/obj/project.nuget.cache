@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PRloiIfBmblBS/+DOL7ZLUJKhm3pfMoDv04WkxOc9UCXb1w1emI3W5cYDKfpB/z11OQo1bpNDkUYpEF2ZehxQ==",
+  "dgSpecHash": "anujz24EGIhyESF3ZVPTAZIVwAyFMB7+JrZEQfq7XqFluzrNTP66kfGMEt+8YImavVKwaUiC1fvKGm3MJRj4EQ==",
   "success": true,
-  "projectFilePath": "D:\\slipNon\\create\\Test_Nonthagorn\\src\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Work\\Test_Nonthagorn\\Test_Nonthagorn\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\innop\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\innop\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
