@@ -59,5 +59,52 @@ namespace Infrastructure.Repositories.StoredProcedures
                 return null;
             }
         }
+        public async Task<IEnumerable<AddProductQueryResult>> AddProductQueryAsync(string? product_name, string? product_decription, string? product_price)
+        {
+            try
+            {
+                string cmd = "EXEC [dbo].[AddProduct] @product_name,@product_decription,@product_price";
+                var sqlParameters = new List<SqlParameter>
+            {
+                new SqlParameter("@product_name", product_name),
+                new SqlParameter("@product_decription", product_decription),
+                new SqlParameter("@product_price", product_price)
+            };
+
+                var result = await _context.AddProductQueryResults.FromSqlRaw(cmd, sqlParameters.ToArray()).ToListAsync();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Log.Information("GetProductQueryAsync Error :" + ex.Message);
+                Log.Error("GetProductQueryAsync Error :" + ex.Message);
+                return null;
+            }
+        }
+        public async Task<IEnumerable<UpdateProductByIDQueryResult>> UpdateProductByIDQueryAsync(int? id, string? product_name, string? product_decription, string? product_price)
+        {
+            try
+            {
+                string cmd = "EXEC [dbo].[UpdateProductByID] @id,@product_name,@product_decription,@product_price";
+                var sqlParameters = new List<SqlParameter>
+            {
+                new SqlParameter("@id", id),
+                new SqlParameter("@product_name", product_name),
+                new SqlParameter("@product_decription", product_decription),
+                new SqlParameter("@product_price", product_price)
+            };
+
+                var result = await _context.UpdateProductByIDQueryResults.FromSqlRaw(cmd, sqlParameters.ToArray()).ToListAsync();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Log.Information("GetProductQueryAsync Error :" + ex.Message);
+                Log.Error("GetProductQueryAsync Error :" + ex.Message);
+                return null;
+            }
+        }
     }
 }

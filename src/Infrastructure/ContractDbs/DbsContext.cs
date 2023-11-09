@@ -20,5 +20,7 @@ namespace Infrastructure.ContractDbs
         }
         public virtual DbSet<GetProductQueryResult> GetProductQueryResults { get; set; }
         public virtual DbSet<GetAllProductQueryResult> GetAllProductQueryResults { get; set; }
+        public virtual DbSet<AddProductQueryResult> AddProductQueryResults { get; set; }
+        public virtual DbSet<UpdateProductByIDQueryResult> UpdateProductByIDQueryResults { get; set; }
     }
 }
