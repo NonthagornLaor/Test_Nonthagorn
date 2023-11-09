@@ -1,0 +1,17 @@
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Application.dll
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Domain.dll
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Application.pdb
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\bin\Debug\net6.0\Domain.pdb
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\slipNon\create\Test_Nonthagorn\src\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

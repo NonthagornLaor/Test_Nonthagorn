@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qb1BecDdA5ztx+AodeF5xzjLkwN1hYHXgjGXD4brYar80RD0Su2qigUDMHtpAHqkBz8l3V0sqrG36Ry5hTrEsA==",
+  "success": true,
+  "projectFilePath": "D:\\slipNon\\create\\Test_Nonthagorn\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\innop\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
