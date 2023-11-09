@@ -77,8 +77,8 @@ namespace Infrastructure.Repositories.StoredProcedures
             }
             catch (Exception ex)
             {
-                Log.Information("GetProductQueryAsync Error :" + ex.Message);
-                Log.Error("GetProductQueryAsync Error :" + ex.Message);
+                Log.Information("AddProductQueryAsync Error :" + ex.Message);
+                Log.Error("AddProductQueryAsync Error :" + ex.Message);
                 return null;
             }
         }
@@ -101,8 +101,29 @@ namespace Infrastructure.Repositories.StoredProcedures
             }
             catch (Exception ex)
             {
-                Log.Information("GetProductQueryAsync Error :" + ex.Message);
-                Log.Error("GetProductQueryAsync Error :" + ex.Message);
+                Log.Information("UpdateProductByIDQueryAsync Error :" + ex.Message);
+                Log.Error("UpdateProductByIDQueryAsync Error :" + ex.Message);
+                return null;
+            }
+        }
+        public async Task<IEnumerable<DeleteProductQueryResult>> DeleteProductQueryAsync(int? id)
+        {
+            try
+            {
+                string cmd = "EXEC [dbo].[DeleteProduct] @id";
+                var sqlParameters = new List<SqlParameter>
+            {
+                new SqlParameter("@id", id)
+            };
+
+                var result = await _context.DeleteProductQueryResults.FromSqlRaw(cmd, sqlParameters.ToArray()).ToListAsync();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Log.Information("DeleteProductQueryAsync Error :" + ex.Message);
+                Log.Error("DeleteProductQueryAsync Error :" + ex.Message);
                 return null;
             }
         }

@@ -9,5 +9,6 @@ namespace Application.Interfaces.Repositories.StoredProcedures
         Task<IEnumerable<GetAllProductQueryResult>> GetAllProductQueryAsync();
         Task<IEnumerable<AddProductQueryResult>> AddProductQueryAsync(string? product_name, string? product_decription, string? product_price);
         Task<IEnumerable<UpdateProductByIDQueryResult>> UpdateProductByIDQueryAsync(int? id, string? product_name, string? product_decription, string? product_price);
+        Task<IEnumerable<DeleteProductQueryResult>> DeleteProductQueryAsync(int? id);
     }
 }

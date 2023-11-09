@@ -6,6 +6,7 @@ using Application.Contract.Queries.GetProductQuery;
 using Application.Contract.Queries.GetAllProductQuery;
 using Application.Contract.Queries.AddProductQuery;
 using Application.Contract.Queries.UpdateProductByIDQuery;
+using Application.Contract.Queries.DeleteProductQuery;
 
 namespace TestApi.Controllers
 {
@@ -91,6 +92,23 @@ namespace TestApi.Controllers
             catch (Exception ex)
             {
                 Log.Error("UpdateProductByID error: " + ex.Message);
+                return null;
+            }
+            return Ok();
+        }
+        [HttpDelete]
+        public async Task<ActionResult> DeleteProduct([FromBody] deleteProductRequest request)
+        {
+            try
+            {
+                var result = await _processor.ExecuteAsync<DeleteProductQuery>(new DeleteProductQuery()
+                {
+                    id = request.id,
+                });
+            }
+            catch (Exception ex)
+            {
+                Log.Error("DeleteProduct error: " + ex.Message);
                 return null;
             }
             return Ok();
