@@ -5,10 +5,11 @@ using WebApp.Contract;
 using Serilog;
 using Microsoft.OpenApi.Models;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -45,11 +46,14 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("../swagger/v1/swagger.json", $"TestAPI v1"));
 }
-
-app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod()
-.WithHeaders("authorization", "accept", "content-type", "origin"));
+// global cors policy
+app.UseCors(x => x
+    .SetIsOriginAllowed(origin => true)
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());
 app.UseHttpsRedirection();
 
 app.UseRouting();
